@@ -1,4 +1,5 @@
 @import './reset.css';
+@import './burger.css';
 @import url(https://fonts.googleapis.com/css?family=Raleway:regular,500,700);
 * {
   transition: all 0.5s ease;
@@ -308,6 +309,7 @@ a {
 
 .hamburger {
   display: none;
+  margin: 15px;
   z-index: 2;
 }
 
@@ -320,11 +322,13 @@ a {
   align-items: center;
   justify-content: center;
   transform: translateY(-101%);
+  font-size: 30px;
 }
 
 .modal-nav-list {
   display: flex;
   flex-direction: column;
+  gap: 100px;
 }
 
 .cards {
@@ -388,6 +392,9 @@ a {
   .filter__item {
     padding: 8px 25px;
   }
+  .filter__list {
+    gap: 5px;
+  }
   .cards {
     margin-top: 50px;
   }
@@ -434,5 +441,8 @@ a {
   .categories__list {
     margin: 10px 0;
     flex-direction: row;
+  }
+  .filter__list {
+    gap: 5px;
   }
 }/*# sourceMappingURL=shop.css.map */
