@@ -1,5 +1,29 @@
+import products from '../products.json' assert {type: 'json'};
+
 const burger = document.querySelector(".hamburger");
 const modalNav = document.querySelector('.modal-nav');
+const cardsList = document.querySelector('.cards__list');
+
+renderCardsList(products);
+
+function renderCardsList(prop) {
+    prop.forEach(el => {
+        let card = document.createElement('li');
+        card.classList.add('cards__item', 'swiper-slide');
+        card.innerHTML = /*html*/`
+        <div class="cards__item-img">
+            <img src=${el.urlImg} alt="${el.name}">
+        </div>
+    
+        <div class="cards__item-title">${el.name}</div>
+    
+        <div class="cards__item-price">$${el.price.priceNow}</div>
+        `;
+        cardsList.append(card);
+
+    });
+}
+
 
 burger.addEventListener("click", function () {
     burger.classList.toggle("is-active");
@@ -7,7 +31,6 @@ burger.addEventListener("click", function () {
 
     if (burger.hasAttribute('is-active')) {
         modalNav.style.transform = 'translateY(0)';
-        // modalNav.style.position = 'relative';
         modalNav.style.zIndex = '2';
     }
     else {
@@ -33,7 +56,6 @@ var swiper1 = new Swiper(".cards", {
         prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-        // when window width is >= 320px
         320: {
             slidesPerView: 1,
         },

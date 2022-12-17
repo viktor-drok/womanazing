@@ -312,6 +312,7 @@ a {
     &__head {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         margin-bottom: 10px;
     }
 
@@ -554,6 +555,14 @@ a {
     .footer__bottom .left {
         flex-direction: column-reverse;
         gap: 10px;
+    }
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+    }
+
+    .footer__bottom .categories {
+        display: none;
     }
 
     .categories__list {
