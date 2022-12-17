@@ -3,7 +3,10 @@ import products from '../products.json' assert {type: 'json'};
 const burger = document.querySelector(".hamburger");
 const modalNav = document.querySelector('.modal-nav');
 const cardsList = document.querySelector('.cards__list');
+const captionTotalCount = document.querySelector('.total-count');
+const captionShowCount = document.querySelector('.show-count');
 
+console.log(captionShowCount);
 renderCardsList(products);
 
 function renderCardsList(prop) {
@@ -22,6 +25,7 @@ function renderCardsList(prop) {
         cardsList.append(card);
 
     });
+    captionTotalCount.innerText = prop.length;
 }
 
 
