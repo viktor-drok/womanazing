@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/shop.css">
     <title>Womazing</title>
 </head>
@@ -93,14 +95,20 @@
             <div class="main__container">
                 <section class="page">
                     <h2 class="page__title">Магазин</h2>
-                    <p class="page__bread-crumbs">Главная</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb page__bread-crumbs">
+                            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Магазин</li>
+                        </ol>
+                    </nav>
+                    <!-- <p class="page__bread-crumbs">Главная</p> -->
                 </section>
 
                 <section class="filter">
                     <ul class="filter__list">
                         <li class="filter__item active">Все</li>
-                        <li class="filter__item">Пальто</li>
-                        <li class="filter__item">Свитшоты</li>
+                        <li id="sweetshots" class="filter__item">Пальто</li>
+                        <li id="t-shirt" class="filter__item">Свитшоты</li>
                         <li class="filter__item">Кардиганы</li>
                         <li class="filter__item">Толстовки</li>
                     </ul>
@@ -108,7 +116,7 @@
 
                 <section class="cards">
                     <div class="cards__caption">
-                        Показано: 9 из 12 товаров
+                        Показано: <span class="show-count">9</span> из <span class="total-count">12</span> товаров
                     </div>
 
                     <ul class="cards__list swiper-wrapper"></ul>
@@ -227,8 +235,10 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
     <script type="module" src="./js/index.js"></script>
 </body>
 

@@ -1,8 +1,15 @@
+@charset "UTF-8";
 @import './reset.css';
 @import './burger.css';
 @import url(https://fonts.googleapis.com/css?family=Raleway:regular,500,700);
 * {
   transition: all 0.5s ease;
+  box-sizing: content-box;
+}
+
+::after,
+::before {
+  box-sizing: content-box;
 }
 
 body {
@@ -12,6 +19,37 @@ body {
 
 a {
   color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  position: relative;
+  top: -3px;
+  content: url("../images/svg-icons/—.svg");
+}
+
+.breadcrumb-item.active {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #919191;
 }
 
 [class*=__container] {

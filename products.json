@@ -6,7 +6,8 @@
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/1.jpg"
+    "urlImg": "./images/img/1.jpg",
+    "category": "t-shirt"
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
       "priceNow": "129",
       "priceOld": null
     },
-    "urlImg": "./images/img/2.jpg"
+    "urlImg": "./images/img/2.jpg",
+    "category": "swimsuit"
   },
   {
     "id": "3",
@@ -24,141 +26,157 @@
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/3.jpg"
+    "urlImg": "./images/img/3.jpg",
+    "category": "sweetshot"
   },
   {
-    "id": "1",
+    "id": "4",
     "name": "Футболка USA",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/1.jpg"
+    "urlImg": "./images/img/1.jpg",
+    "category": "t-shirt"
   },
   {
-    "id": "2",
+    "id": "5",
     "name": "Купальник glow",
     "price": {
       "priceNow": "129",
       "priceOld": null
     },
-    "urlImg": "./images/img/2.jpg"
+    "urlImg": "./images/img/2.jpg",
+    "category": "swimsuit"
   },
   {
-    "id": "3",
+    "id": "6",
     "name": "Свитшот Sweet Shot",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/3.jpg"
+    "urlImg": "./images/img/3.jpg",
+    "category": "sweetshot"
   },
   {
-    "id": "1",
+    "id": "7",
     "name": "Футболка USA",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/1.jpg"
+    "urlImg": "./images/img/1.jpg",
+    "category": "t-shirt"
   },
   {
-    "id": "2",
+    "id": "8",
     "name": "Купальник glow",
     "price": {
       "priceNow": "129",
       "priceOld": null
     },
-    "urlImg": "./images/img/2.jpg"
+    "urlImg": "./images/img/2.jpg",
+    "category": "swimsuit"
   },
   {
-    "id": "3",
+    "id": "9",
     "name": "Свитшот Sweet Shot",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/3.jpg"
+    "urlImg": "./images/img/3.jpg",
+    "category": "sweetshot"
   },
   {
-    "id": "1",
+    "id": "10",
     "name": "Футболка USA",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/1.jpg"
+    "urlImg": "./images/img/1.jpg",
+    "category": "t-shirt"
   },
   {
-    "id": "2",
+    "id": "11",
     "name": "Купальник glow",
     "price": {
       "priceNow": "129",
       "priceOld": null
     },
-    "urlImg": "./images/img/2.jpg"
+    "urlImg": "./images/img/2.jpg",
+    "category": "swimsuit"
   },
   {
-    "id": "3",
+    "id": "12",
     "name": "Свитшот Sweet Shot",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/3.jpg"
+    "urlImg": "./images/img/3.jpg",
+    "category": "sweetshot"
   },
   {
-    "id": "1",
+    "id": "13",
     "name": "Футболка USA",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/1.jpg"
+    "urlImg": "./images/img/1.jpg",
+    "category": "t-shirt"
   },
   {
-    "id": "2",
+    "id": "14",
     "name": "Купальник glow",
     "price": {
       "priceNow": "129",
       "priceOld": null
     },
-    "urlImg": "./images/img/2.jpg"
+    "urlImg": "./images/img/2.jpg",
+    "category": "swimsuit"
   },
   {
-    "id": "3",
+    "id": "15",
     "name": "Свитшот Sweet Shot",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/3.jpg"
+    "urlImg": "./images/img/3.jpg",
+    "category": "sweetshot"
   },
   {
-    "id": "1",
+    "id": "16",
     "name": "Футболка USA",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/1.jpg"
+    "urlImg": "./images/img/1.jpg",
+    "category": "t-shirt"
   },
   {
-    "id": "2",
+    "id": "17",
     "name": "Купальник glow",
     "price": {
       "priceNow": "129",
       "priceOld": null
     },
-    "urlImg": "./images/img/2.jpg"
+    "urlImg": "./images/img/2.jpg",
+    "category": "swimsuit"
   },
   {
-    "id": "3",
+    "id": "18",
     "name": "Свитшот Sweet Shot",
     "price": {
       "priceNow": "129",
       "priceOld": "189"
     },
-    "urlImg": "./images/img/3.jpg"
+    "urlImg": "./images/img/3.jpg",
+    "category": "sweetshot"
   }
 ]
