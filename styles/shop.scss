@@ -244,10 +244,10 @@ ul {
         color: #000000;
     }
 
-    &__item.active {
-        background-color: #000000;
-        color: #ffffff;
-    }
+    // &__item.active {
+    //     background-color: #000000;
+    //     color: #ffffff;
+    // }
 }
 
 .cards {
@@ -610,4 +610,15 @@ ul {
     .filter__list {
         gap: 5px;
     }
+}
+
+.hide {
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0;
+}
+
+[data-active] {
+    background-color: #000000;
+    color: #ffffff;
 }

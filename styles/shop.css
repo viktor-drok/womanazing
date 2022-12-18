@@ -200,10 +200,6 @@ ul {
   letter-spacing: 0.02em;
   color: #000000;
 }
-.filter__item.active {
-  background-color: #000000;
-  color: #ffffff;
-}
 
 .cards {
   margin-top: 92px;
@@ -490,4 +486,14 @@ ul {
   .filter__list {
     gap: 5px;
   }
+}
+.hide {
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0;
+}
+
+[data-active] {
+  background-color: #000000;
+  color: #ffffff;
 }/*# sourceMappingURL=shop.css.map */

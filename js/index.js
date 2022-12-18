@@ -4,7 +4,6 @@ const burger = document.querySelector(".hamburger");
 const modalNav = document.querySelector('.modal-nav');
 const cardsList = document.querySelector('.cards__list');
 const captionTotalCount = document.querySelector('.total-count');
-const captionShowCount = document.querySelector('.show-count');
 const filterList = document.querySelector('.filter__list');
 
 console.log(filterList);
@@ -36,15 +35,46 @@ function renderCardsList(prop) {
 }
 captionTotalCount.innerText = document.querySelectorAll('.cards__item').length;
 
-// document.querySelector('.filter__list').addEventListener('click', (e) => {
-//     e.preventDefault();
-//     if (e.target.closest('.filter__item').id === null) {
-//         return false;
-//     } else {
-//         console.log(e.target.closest('li').id);
-//         renderCardsList(products);
-//     }
-// });
+filterList.addEventListener('click', (e) => {
+    if (e.target.closest('li').id === 'all') {
+        // e.target.closest('li').classList.add('filter-active');
+        e.target.closest('li').hasAttribute('data-active')
+            ? delete e.target.closest('li').dataset.active
+            : e.target.closest('li').dataset.active = '';
+        document.querySelectorAll('.cards__item').forEach(el => {
+            if (el.hasAttribute('data-category')) {
+                el.classList.remove('hide');
+            }
+        });
+    } else if (e.target.closest('li').id === 'sweetshot') {
+        e.target.closest('li').hasAttribute('data-active')
+            ? delete e.target.closest('li').dataset.active
+            : e.target.closest('li').dataset.active = '';
+        document.querySelectorAll('.cards__item').forEach(el => {
+            if (el.getAttribute('data-category') !== 'sweetshot') {
+                el.classList.toggle('hide');
+            }
+        });
+    } else if (e.target.closest('li').id === 't-shirt') {
+        e.target.closest('li').hasAttribute('data-active')
+            ? delete e.target.closest('li').dataset.active
+            : e.target.closest('li').dataset.active = '';
+        document.querySelectorAll('.cards__item').forEach(el => {
+            if (el.getAttribute('data-category') !== 't-shirt') {
+                el.classList.toggle('hide');
+            }
+        });
+    } else if (e.target.closest('li').id === 'swimsuit') {
+        e.target.closest('li').hasAttribute('data-active')
+            ? delete e.target.closest('li').dataset.active
+            : e.target.closest('li').dataset.active = '';
+        document.querySelectorAll('.cards__item').forEach(el => {
+            if (el.getAttribute('data-category') !== 'swimsuit') {
+                el.classList.toggle('hide');
+            }
+        });
+    }
+});
 
 
 burger.addEventListener("click", function () {
@@ -89,5 +119,3 @@ var swiper1 = new Swiper(".cards", {
         }
     }
 });
-
-
