@@ -86,15 +86,16 @@ function renderCardsList(prop) {
 
         card.innerHTML = /*html*/`
             <div class="cards__item-img">
-            <img src=${el.urlImg} alt=${el.name}>
+                <img class="image" src=${el.urlImg} alt=${el.name}>
             </div>
+
             
             <div class="cards__item-title">
-            ${el.name}
+                ${el.name}
             </div>
             
             <div class="cards__item-price">
-            $${el.price.priceNow}
+               $${el.price.priceNow}
             </div>
             `;
         cardsList.append(card);
