@@ -5,10 +5,12 @@ const modalNav = document.querySelector('.modal-nav');
 const cardsList = document.querySelector('.cards__list');
 const captionTotalCount = document.querySelectorAll('.total-count');
 const filterList = document.querySelector('.filter__list');
+const filterItems = document.querySelectorAll('.filter__item');
 const filteredProducts = [...products];
 
 let swiper1 = new Swiper(".cards", {
     slidesPerView: 3,
+    spaceBetween: 10,
     grid: {
         rows: 3,
     },
@@ -48,6 +50,8 @@ function filterProducts(cat) {
     products.forEach(el => {
         if (el.category === cat) {
             categ.push(el);
+        } else if (cat === 'all') {
+            categ.push(el);
         }
     });
     filteredProducts.splice(0, filteredProducts.length, ...categ);
@@ -55,10 +59,18 @@ function filterProducts(cat) {
     swiper1.init();
 }
 
+function activeFilterButton(e) {
+    e.target;
+}
+
 filterList.addEventListener('click', (e) => {
+    let target = e.target;
     if (e.target.closest('li')) {
-        // swiper1.destroy();
         console.log(e.target.id);
+        filterItems.forEach(el => el.classList?.remove('filter--active'));
+
+        let active = target.classList.add('filter--active');
+        console.log(target);
         filterProducts(e.target.id);
     }
 });
@@ -70,6 +82,7 @@ function renderCardsList(prop) {
         let card = document.createElement('li');
         card.classList.add('cards__item', 'swiper-slide');
         card.dataset.category = el.category;
+        card.dataset.id = el.id;
 
         card.innerHTML = /*html*/`
             <div class="cards__item-img">
