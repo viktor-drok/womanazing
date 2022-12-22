@@ -551,4 +551,8 @@ ul {
 [data-active] {
   background-color: #000000;
   color: #ffffff;
+}
+
+.card-size-option {
+  display: flex;
 }/*# sourceMappingURL=shop.css.map */

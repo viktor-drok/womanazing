@@ -92,18 +92,16 @@ filterList?.addEventListener('click', (e) => {
 console.log(filteredProducts);
 
 cardsList.addEventListener('click', openCard);
+let selectedCard = {};
 
 function openCard(e) {
     if (e.target.closest('li')) {
         let itemId = e.target.closest('li').dataset.id;
-        let selectedCard = {};
         products.forEach(el => {
             if (el.id === itemId) {
-                console.log(el);
                 return selectedCard = el;
             };
         });
-        console.log(selectedCard);
 
         allCardsSection.innerHTML = renderCard(selectedCard);
     }
@@ -157,9 +155,19 @@ let main = document.getElementById('main');
 console.log(main);
 console.log(products);
 
+function renderSize(selectedCard) {
+    const { size } = selectedCard;
+    return ( /* html */`
+    <li>sfasgag</li>
+    `);
+};
+
 function renderCard(selectedCard) {
     const { urlImg, price, name, size } = selectedCard;
 
+    const sizeOption = size.map(el => (` <li>${el}</li> `));
+
+    console.log(sizeOption.join(''));
     return (/*html*/`
     <div class="container">
         <div class="card-img">
@@ -170,13 +178,13 @@ function renderCard(selectedCard) {
             <div class="card-price">${price.priceNow}</div>
 
             <div class="card-size">
-                <h3 class="card-size-title">${size}</h3>
+                <h3 class="card-size-title">Выберите размер</h3>
 
-                <div class="card-size-option">dfhfdhdfh</div>
+                <ul class="card-size-option">${sizeOption.join('')}</ul>
             </div>
 
             <div class="card-color">
-                <h3 class="card-color-title">dfhfdhdfh</h3>
+                <h3 class="card-color-title">Выберите цвет</h3>
 
                 <div class="card-color-option">dfhfdhdfh</div>
             </div>
@@ -190,7 +198,7 @@ function renderCard(selectedCard) {
 };
 
 
-console.log(paginationBox);
+
 
 function pagination() {
     return ( /* html */`
