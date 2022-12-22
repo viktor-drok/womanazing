@@ -3,7 +3,6 @@
 @import './burger.css';
 @import url(https://fonts.googleapis.com/css?family=Raleway:regular,500,700);
 * {
-  transition: all 0.5s ease;
   box-sizing: content-box;
 }
 
@@ -306,9 +305,16 @@ ul {
   background-color: #000000;
 }
 
+#pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .next-page {
   cursor: pointer;
-  width: 20px;
+  width: 40px;
   height: 10px;
 }
 

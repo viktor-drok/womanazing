@@ -7,6 +7,8 @@ const captionTotalCount = document.querySelectorAll('.total-count');
 const filterList = document.querySelector('.filter__list');
 const allCardsSection = document.querySelector('.cards');
 const filterItems = document.querySelectorAll('.filter__item');
+const paginationBox = document.getElementById('pagination');
+
 const filteredProducts = [...products];
 
 let swiper1 = new Swiper(".cards", {
@@ -38,11 +40,18 @@ let swiper1 = new Swiper(".cards", {
         }
     }
 });
+const renderedCards = renderCardsList(filteredProducts);
+
+// filterList.addEventListener('click', (e) => {
+//     if (e.target.closest('li').id === 'all') {
+//         console.log(e.target.closest('li').id);
+//         allCardsSection.innerHTML = /*html*/`
+//         `;
+//         // renderCardsList(filteredProducts)
+//     }
+// });
 
 console.log(filterList);
-renderCardsList(filteredProducts);
-// window.onload = renderCardsList(filteredProducts);
-// renderCardsList(filteredProducts);
 
 
 function filterProducts(cat) {
@@ -57,8 +66,11 @@ function filterProducts(cat) {
     });
     filteredProducts.splice(0, filteredProducts.length, ...categ);
     renderCardsList(filteredProducts);
-    swiper1.init();
 }
+
+document.getElementById('all').addEventListener('click', () => {
+    pagination();
+});
 
 function activeFilterButton(e) {
     e.target;
@@ -70,7 +82,7 @@ filterList?.addEventListener('click', (e) => {
         console.log(e.target.id);
         filterItems.forEach(el => el.classList?.remove('filter--active'));
 
-        let active = target.classList.add('filter--active');
+        target.classList.add('filter--active');
         console.log(target);
         console.log(e.currentTarget);
         filterProducts(e.target.id);
@@ -82,23 +94,20 @@ console.log(filteredProducts);
 cardsList.addEventListener('click', openCard);
 
 function openCard(e) {
-    swiper1.destroy();
     if (e.target.closest('li')) {
         let itemId = e.target.closest('li').dataset.id;
-        let a = {};
+        let selectedCard = {};
         products.forEach(el => {
             if (el.id === itemId) {
                 console.log(el);
-                return a = el;
+                return selectedCard = el;
             };
         });
-        console.log(a);
+        console.log(selectedCard);
 
-        allCardsSection.innerHTML = renderCard(a);
+        allCardsSection.innerHTML = renderCard(selectedCard);
     }
 }
-
-// console.log(openCard());
 
 function renderCardsList(prop) {
     prop.forEach(el => {
@@ -114,7 +123,6 @@ function renderCardsList(prop) {
                 </div>
             </div>
 
-            
             <div class="cards__item-title">
                 ${el.name}
             </div>
@@ -129,48 +137,6 @@ function renderCardsList(prop) {
 captionTotalCount.forEach(el => {
     el.innerText = document.querySelectorAll('.cards__item').length;
 });
-
-// filterList.addEventListener('click', (e) => {
-//     if (e.target.closest('li').id === 'all') {
-//         // e.target.closest('li').classList.add('filter-active');
-//         e.target.closest('li').hasAttribute('data-active')
-//             ? delete e.target.closest('li').dataset.active
-//             : e.target.closest('li').dataset.active = '';
-//         document.querySelectorAll('.cards__item').forEach(el => {
-//             if (el.hasAttribute('data-category')) {
-//                 el.classList.remove('hide');
-//             }
-//         });
-//     } else if (e.target.closest('li').id === 'sweetshot') {
-//         e.target.closest('li').hasAttribute('data-active')
-//             ? delete e.target.closest('li').dataset.active
-//             : e.target.closest('li').dataset.active = '';
-//         document.querySelectorAll('.cards__item').forEach(el => {
-//             if (el.getAttribute('data-category') !== 'sweetshot') {
-//                 el.classList.toggle('hide');
-//             }
-//         });
-//     } else if (e.target.closest('li').id === 't-shirt') {
-//         e.target.closest('li').hasAttribute('data-active')
-//             ? delete e.target.closest('li').dataset.active
-//             : e.target.closest('li').dataset.active = '';
-//         document.querySelectorAll('.cards__item').forEach(el => {
-//             if (el.getAttribute('data-category') !== 't-shirt') {
-//                 el.classList.toggle('hide');
-//             }
-//         });
-//     } else if (e.target.closest('li').id === 'swimsuit') {
-//         e.target.closest('li').hasAttribute('data-active')
-//             ? delete e.target.closest('li').dataset.active
-//             : e.target.closest('li').dataset.active = '';
-//         document.querySelectorAll('.cards__item').forEach(el => {
-//             if (el.getAttribute('data-category') !== 'swimsuit') {
-//                 el.classList.toggle('hide');
-//             }
-//         });
-//     }
-// });
-
 
 burger.addEventListener("click", function () {
     burger.classList.toggle("is-active");
@@ -189,35 +155,59 @@ burger.addEventListener("click", function () {
 
 let main = document.getElementById('main');
 console.log(main);
+console.log(products);
 
-function renderCard(a) {
+function renderCard(selectedCard) {
+    const { urlImg, price, name, size } = selectedCard;
 
-    return /*html*/`<div class="container">
-                        <div class="card-img">
-                            <img src='${a.urlImg}' alt=''>
-                        </div>
+    return (/*html*/`
+    <div class="container">
+        <div class="card-img">
+            <img src='${urlImg}' alt=''>
+        </div>
 
-                        <div class="card-descr">
-                            <div class="card-price">${a.price.priceNow}</div>
+        <div class="card-descr">
+            <div class="card-price">${price.priceNow}</div>
 
-                            <div class="card-size">
-                                <h3 class="card-size-title">fdhfdhfdh</h3>
+            <div class="card-size">
+                <h3 class="card-size-title">${size}</h3>
 
-                                <div class="card-size-option">dfhfdhdfh</div>
-                            </div>
+                <div class="card-size-option">dfhfdhdfh</div>
+            </div>
 
-                            <div class="card-color">
-                                <h3 class="card-color-title">dfhfdhdfh</h3>
+            <div class="card-color">
+                <h3 class="card-color-title">dfhfdhdfh</h3>
 
-                                <div class="card-color-option">dfhfdhdfh</div>
-                            </div>
+                <div class="card-color-option">dfhfdhdfh</div>
+            </div>
 
-                            <div class="picked-goods">${a.name}</div>
-                            <button type="button" class="add-to-cart"></button>
-                        </div>
-                    </div>;
-    `;
-
+            <div class="picked-goods">${name}</div>
+            <button type="button" class="add-to-cart"></button>
+        </div>
+    </div>;
+    `
+    );
 };
 
+
+console.log(paginationBox);
+
+function pagination() {
+    return ( /* html */`
+        <svg class="next-page swiper-button-prev">
+            <use xlink:href="./images/svg-icons/sprites.svg#arrow-right-black"></use>
+        </svg>
+
+        <div class="pagination swiper-pagination"></div>
+
+        <svg class="next-page swiper-button-next">
+            <use xlink:href="./images/svg-icons/sprites.svg#arrow-right-black"></use>
+        </svg>
+    `
+    );
+}
+
+paginationBox.innerHTML = pagination();
+swiper1.pagination.init();
+swiper1.navigation.init();
 // main.innerHTML = renderCard();

@@ -7,7 +7,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "5",
@@ -47,7 +51,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "7",
@@ -67,7 +73,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "8",
@@ -77,7 +84,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "9",
@@ -87,7 +95,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "10",
@@ -97,7 +106,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "11",
@@ -107,7 +117,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "12",
@@ -117,7 +128,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "13",
@@ -127,7 +139,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "14",
@@ -137,7 +150,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "15",
@@ -147,7 +161,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "16",
@@ -157,7 +172,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "17",
@@ -167,7 +183,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "18",
@@ -177,7 +194,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "1",
@@ -187,7 +205,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "2",
@@ -197,7 +216,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "3",
@@ -207,7 +227,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "4",
@@ -217,7 +238,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "5",
@@ -227,7 +249,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "6",
@@ -237,7 +260,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "7",
@@ -247,7 +271,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "8",
@@ -257,7 +282,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "9",
@@ -267,7 +293,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "10",
@@ -277,7 +304,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "11",
@@ -287,7 +315,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "12",
@@ -297,7 +326,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "13",
@@ -307,7 +337,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "14",
@@ -317,7 +348,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "15",
@@ -327,7 +359,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "16",
@@ -337,7 +370,8 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/1.jpg",
-    "category": "t-shirt"
+    "category": "t-shirt",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "17",
@@ -347,7 +381,8 @@
       "priceOld": null
     },
     "urlImg": "./images/img/2.jpg",
-    "category": "swimsuit"
+    "category": "swimsuit",
+    "size": ["s", "m", "l", "xl", "xxl"]
   },
   {
     "id": "18",
@@ -357,6 +392,7 @@
       "priceOld": "189"
     },
     "urlImg": "./images/img/3.jpg",
-    "category": "sweetshot"
+    "category": "sweetshot",
+    "size": ["s", "m", "l", "xl", "xxl"]
   }
 ]
