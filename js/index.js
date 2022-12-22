@@ -63,7 +63,7 @@ function activeFilterButton(e) {
     e.target;
 }
 
-filterList.addEventListener('click', (e) => {
+filterList?.addEventListener('click', (e) => {
     let target = e.target;
     if (e.target.closest('li')) {
         console.log(e.target.id);
@@ -71,22 +71,46 @@ filterList.addEventListener('click', (e) => {
 
         let active = target.classList.add('filter--active');
         console.log(target);
+        console.log(e.currentTarget);
         filterProducts(e.target.id);
     }
 });
 
 console.log(filteredProducts);
 
+cardsList.addEventListener('click', openCard);
+
+function openCard(e) {
+    swiper1.disable();
+    if (e.target.closest('li')) {
+        let itemId = e.target.closest('li').dataset.id;
+        let a = {};
+        products.forEach(el => {
+            if (el.id === itemId) {
+                console.log(el);
+                return a = el;
+            };
+        });
+        console.log(a);
+
+        cardsList.innerHTML = renderCard(a);
+    }
+}
+
+// console.log(openCard());
+
 function renderCardsList(prop) {
     prop.forEach(el => {
+
         let card = document.createElement('li');
         card.classList.add('cards__item', 'swiper-slide');
         card.dataset.category = el.category;
         card.dataset.id = el.id;
-
         card.innerHTML = /*html*/`
-            <div class="cards__item-img">
-                <img class="image" src=${el.urlImg} alt=${el.name}>
+            <div>
+                <div class="cards__item-img">
+                    <img class="image" src=${el.urlImg} alt=${el.name}>
+                </div>
             </div>
 
             
@@ -98,7 +122,7 @@ function renderCardsList(prop) {
                $${el.price.priceNow}
             </div>
             `;
-        cardsList.append(card);
+        cardsList?.append(card);
     });
 }
 captionTotalCount.forEach(el => {
@@ -160,4 +184,37 @@ burger.addEventListener("click", function () {
     }
 });
 
+// card page
 
+let main = document.getElementById('main');
+console.log(main);
+
+function renderCard(a) {
+
+    return /*html*/`<div class="card-img">
+                            <img src='${a.urlImg}' alt=''>
+                        </div>
+
+                        <div class="card-descr">
+                            <div class="card-price">${a.price.priceNow}</div>
+
+                            <div class="card-size">
+                                <h3 class="card-size-title">fdhfdhfdh</h3>
+
+                                <div class="card-size-option">dfhfdhdfh</div>
+                            </div>
+
+                            <div class="card-color">
+                                <h3 class="card-color-title">dfhfdhdfh</h3>
+
+                                <div class="card-color-option">dfhfdhdfh</div>
+                            </div>
+
+                            <div class="picked-goods">${a.name}</div>
+                            <button type="button" class="add-to-cart"></button>
+                        </div>;
+    `;
+
+};
+
+// main.innerHTML = renderCard();
