@@ -5,6 +5,7 @@ const modalNav = document.querySelector('.modal-nav');
 const cardsList = document.querySelector('.cards__list');
 const captionTotalCount = document.querySelectorAll('.total-count');
 const filterList = document.querySelector('.filter__list');
+const allCardsSection = document.querySelector('.cards');
 const filterItems = document.querySelectorAll('.filter__item');
 const filteredProducts = [...products];
 
@@ -81,7 +82,7 @@ console.log(filteredProducts);
 cardsList.addEventListener('click', openCard);
 
 function openCard(e) {
-    swiper1.disable();
+    swiper1.destroy();
     if (e.target.closest('li')) {
         let itemId = e.target.closest('li').dataset.id;
         let a = {};
@@ -93,7 +94,7 @@ function openCard(e) {
         });
         console.log(a);
 
-        cardsList.innerHTML = renderCard(a);
+        allCardsSection.innerHTML = renderCard(a);
     }
 }
 
@@ -191,7 +192,8 @@ console.log(main);
 
 function renderCard(a) {
 
-    return /*html*/`<div class="card-img">
+    return /*html*/`<div class="container">
+                        <div class="card-img">
                             <img src='${a.urlImg}' alt=''>
                         </div>
 
@@ -212,7 +214,8 @@ function renderCard(a) {
 
                             <div class="picked-goods">${a.name}</div>
                             <button type="button" class="add-to-cart"></button>
-                        </div>;
+                        </div>
+                    </div>;
     `;
 
 };
