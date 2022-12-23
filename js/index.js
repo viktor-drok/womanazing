@@ -13,8 +13,6 @@ const paginationBox = document.getElementById('pagination');
 
 const filteredProducts = [...products];
 
-console.log(filterList.children);
-
 renderCardsList(filteredProducts);
 
 function filterProducts(cat) {
@@ -94,6 +92,5 @@ captionTotalCount.forEach(el => {
 paginationBox.innerHTML = pagination();
 swiper1.pagination.init();
 swiper1.navigation.init();
-// main.innerHTML = renderCard();
 
 export * as Index from './index.js';

@@ -1,3 +1,5 @@
+import products from '../products.json' assert {type: 'json'};
+
 export function renderCard(selectedCard) {
     const { urlImg, price, name, size, color } = selectedCard;
 
@@ -54,6 +56,43 @@ export function renderCard(selectedCard) {
             </div>
         </div>
     </div>
+
+    <h3 class="similar-goods-title">Связанные товары</h3>
+    <div class="similar-goods">
+
+        <div>
+            <div>
+                <div class="cards__item-img">
+                    <img class="image" src=${products[3].urlImg} alt=${products[3].name}>
+                </div>
+            </div>
+    
+            <div class="cards__item-title">
+                ${products[3].name}
+            </div>
+            
+            <div class="cards__item-price">
+                $${products[3].price.priceNow}
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div class="cards__item-img">
+                    <img class="image" src=${products[4].urlImg} alt=${products[4].name}>
+                </div>
+            </div>
+    
+            <div class="cards__item-title">
+                ${products[4].name}
+            </div>
+            
+            <div class="cards__item-price">
+                $${products[4].price.priceNow}
+            </div>
+        </div>
+    </div>
+   
     `
     );
 };
