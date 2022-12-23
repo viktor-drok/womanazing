@@ -8,7 +8,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "2",
@@ -19,7 +20,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "3",
@@ -30,7 +32,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "4",
@@ -41,7 +44,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "5",
@@ -52,7 +56,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "6",
@@ -63,7 +68,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "7",
@@ -74,7 +80,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "8",
@@ -85,7 +92,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "9",
@@ -96,7 +104,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "10",
@@ -107,7 +116,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "11",
@@ -118,7 +128,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "12",
@@ -129,7 +140,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "13",
@@ -140,7 +152,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "14",
@@ -151,7 +164,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "15",
@@ -162,7 +176,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "16",
@@ -173,7 +188,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "17",
@@ -184,7 +200,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "18",
@@ -195,7 +212,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "1",
@@ -206,7 +224,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "2",
@@ -217,7 +236,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "3",
@@ -228,7 +248,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "4",
@@ -239,7 +260,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "5",
@@ -250,7 +272,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "6",
@@ -261,7 +284,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "7",
@@ -272,7 +296,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "8",
@@ -283,7 +308,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "9",
@@ -294,7 +320,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "10",
@@ -305,7 +332,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "11",
@@ -316,7 +344,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "12",
@@ -327,7 +356,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "13",
@@ -338,7 +368,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "14",
@@ -349,7 +380,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "15",
@@ -360,7 +392,8 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "16",
@@ -371,7 +404,8 @@
     },
     "urlImg": "./images/img/1.jpg",
     "category": "t-shirt",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "17",
@@ -382,7 +416,8 @@
     },
     "urlImg": "./images/img/2.jpg",
     "category": "swimsuit",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   },
   {
     "id": "18",
@@ -393,6 +428,7 @@
     },
     "urlImg": "./images/img/3.jpg",
     "category": "sweetshot",
-    "size": ["s", "m", "l", "xl", "xxl"]
+    "size": ["s", "m", "l", "xl", "xxl"],
+    "color": ["#927876", "#D4D4D4", "#FD9696", "#FDC796"]
   }
 ]

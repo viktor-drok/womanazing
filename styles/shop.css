@@ -555,4 +555,19 @@ ul {
 
 .card-size-option {
   display: flex;
+}
+
+.card-size-item {
+  margin-right: 10px;
+}
+
+.card-color-option {
+  display: flex;
+  gap: 10px;
+}
+
+.card-color-item {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
 }/*# sourceMappingURL=shop.css.map */
