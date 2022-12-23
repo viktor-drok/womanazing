@@ -13,6 +13,8 @@ const paginationBox = document.getElementById('pagination');
 
 const filteredProducts = [...products];
 
+console.log(filterList.children);
+
 renderCardsList(filteredProducts);
 
 function filterProducts(cat) {

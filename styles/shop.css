@@ -555,19 +555,113 @@ ul {
 
 .card-size-option {
   display: flex;
+  gap: 14px;
 }
 
 .card-size-item {
-  margin-right: 10px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 59px;
+  text-transform: uppercase;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+}
+
+.card-color-title {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 34px;
 }
 
 .card-color-option {
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 .card-color-item {
   width: 41px;
   height: 41px;
   border-radius: 50%;
+  margin-bottom: 59px;
+}
+
+.one-card-content {
+  display: flex;
+  gap: 74px;
+}
+
+.card-img,
+.card-descr {
+  flex: 0 1 50%;
+}
+
+.card-descr {
+  margin: 117px 150px 117px 0;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-price {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #998E78;
+  margin-bottom: 59px;
+}
+
+.card-size-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 34px;
+}
+
+.goods {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.picked-goods {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #AFAFAF;
+  width: 68px;
+  height: 68px;
+  box-sizing: border-box;
+}
+
+.add-to-cart {
+  font-family: "Raleway";
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding: 22px 50px;
+  background: #6E9C9F;
+  box-sizing: border-box;
 }/*# sourceMappingURL=shop.css.map */
