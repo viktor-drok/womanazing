@@ -25,6 +25,8 @@ export function renderCard(selectedCard) {
     const colorOption = color.map(el => (` <li class="card-color-item" style='background: ${el}'></li> `));
 
     filterList.style.display = 'none';
+
+    window.scrollTo(0, 0);
     return (/*html*/`
     <div class="container one-card-content">
         <div class="card-img">
